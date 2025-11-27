@@ -148,6 +148,27 @@
       color:#020815;
       border-color:transparent
     }
+    /* Bouton Concept Note (standard portefeuille) */
+    .btn.btn-concept{
+      background:transparent;
+      color:var(--accent);
+      border-radius:999px;
+      border:1px solid rgba(143,176,255,0.85);
+      box-shadow:0 0 0 1px rgba(2,8,21,0.9);
+      padding:9px 16px;
+      font-size:14px;
+    }
+    .btn.btn-concept:hover{
+      text-decoration:none;
+      background:rgba(143,176,255,0.06);
+    }
+    .btn.btn-concept .cn-icon{
+      width:14px;
+      height:14px;
+      border-radius:4px;
+      background:linear-gradient(135deg,#7fd0ff,#4a8dff);
+      display:inline-block;
+    }
     .grid{
       display:grid;
       grid-template-columns:repeat(12,1fr);
@@ -356,6 +377,10 @@
       <div class="cta">
         <a class="btn primary" href="mailto:contact@genomicsovereignty.com?subject=GenomicSovereignty.com%20-%20NDA%20%2F%20Offer&body=Hello%2C%0D%0A%0D%0AI%27d%20like%20to%20request%20your%20NDA%20and%2For%20submit%20an%20offer%20for%20GenomicSovereignty.com.%0D%0AOrganisation%3A%20%0D%0AName%20%2F%20Role%3A%20%0D%0APlanned%20initiative%20%28observatory%2C%20alliance%2C%20programme%29%3A%20%0D%0ABudget%20range%3A%20%0D%0A%0D%0ABest%2C">
           Submit an offer / Request NDA
+        </a>
+        <a class="btn btn-concept" href="/concept-note.html">
+          <span class="cn-icon"></span>
+          Concept Note
         </a>
         <a class="btn" href="#value-en">Why this name?</a>
         <a class="btn" href="https://www.linkedin.com/company/genomicsovereignty" target="_blank" rel="noopener" aria-label="Open GenomicSovereignty on LinkedIn">
