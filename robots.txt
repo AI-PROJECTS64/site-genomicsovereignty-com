@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /404.html
+Allow: /
 
-Sitemap: https://www.genomicsovereignty.com/sitemap.xml
+Sitemap: https://www.genomicsouvereignty.com/sitemap.xml
